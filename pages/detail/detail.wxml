@@ -1,0 +1,33 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class='detail-group'>
+    日本の食器
+  </view>
+  <view class='detail-info'>
+    <view class='detail-center'>
+      <view class='info-title'>
+        愿你永未衰老，不留我一人独活
+      </view>
+      <view class='info-top'>
+        <image class='info-avatar' mode='widthFix' src='../../images/icon/discuss.png'></image>
+        <view class='info-top-center'>
+          <view class='info-top-name'> CHJ
+            <text>2017/07/21 12:59:23</text>
+          </view>
+          <view class='info-top-desc'>若得山花插满头，莫问奴归处</view>
+          <view class='info-top-desc'>9888人查看</view>
+        </view>
+        <view class='info-top-right'>关注TA</view>
+      </view>
+      <view class='detail-content'>
+        <image mode='widthFix' src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
+        <image src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
+        <image mode='widthFix' src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
+      </view>
+    </view>
+
+  </view>
+
+
+
+</view>
