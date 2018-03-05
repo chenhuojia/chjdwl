@@ -1,0 +1,23 @@
+<view class='container push-container'>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class='title'>
+      <input type="text" name="title"  placeholder="输入发布的标题" focus="true" maxlength="100"></input>
+    </view>
+    <view class='title'>
+      <textarea name="desc" maxlength="{{noteMaxLen}}" placeholder="输入发布的简介" bindinput="inputLen"></textarea>
+       <text class="wordLimit">{{currentNoteLen|0}}/{{noteMaxLen}}</text> 
+    </view>
+
+    <view class='images'  bindtap="upimg">
+        <image mode='aspectFit' src='../../images/icon/add-image.png'></image>
+    </view>
+    <view class='images'  bindtap="euploadimg">
+        <image mode='aspectFit' src='../../images/icon/add-image.png'></image>
+    </view>
+  <view class='button'>
+    <button form-type="submit" type="primary">提交</button>
+  </view>
+  </form>
+
+
+</view>
