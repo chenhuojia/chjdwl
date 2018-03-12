@@ -1,0 +1,27 @@
+<!--pages/my/my.wxml-->
+<import src="../common/tpls/userinfo.wxml"/>
+<view class="container my-container">
+  <template is="userinfo" data="{{userInfo: userInfo}}"/>
+  <view class='content'>
+    <view bindtap='onmyblog'>
+        <image mode='aspectFit' src='../../images/icon/wenjiang.png'></image>
+        <text>我的文章</text>
+        <image mode='aspectFit' src='../../images/icon/right.png'></image>
+    </view>
+    <view bindtap='onpush'>
+        <image mode='aspectFit' src='../../images/icon/fabu.png'></image>
+        <text>发布</text>
+        <image mode='aspectFit' src='../../images/icon/right.png'></image>
+    </view>
+    <view bindtap='onfeedback'>
+        <image mode='aspectFit' src='../../images/icon/yijian.png'></image>
+        <text>意见反馈</text>
+        <image mode='aspectFit' src='../../images/icon/right.png'></image>
+    </view>
+    <view class='last' bindtap='onabout'>
+        <image mode='aspectFit' src='../../images/icon/about.png'></image>
+        <text>关于</text>
+        <image mode='aspectFit' src='../../images/icon/right.png'></image>
+    </view>
+  </view>
+</view>

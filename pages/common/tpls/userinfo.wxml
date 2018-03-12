@@ -1,0 +1,16 @@
+<template name="userinfo">
+    <view class='header'>
+      <view class='avatar'>
+        <image mode='aspectFit' src='{{userInfo.avatarUrl}}'></image>
+      </view>
+      <view class='header-foot'>
+        <view class='sex'>
+          <image mode='aspectFit' src="{{userInfo.gender==1?'../../images/icon/boy.png':'../../images/icon/girl.png'}}"></image>
+         <text>{{userInfo.nickName}}</text>
+        </view>
+        <view class='user-info'>
+          个性签名:{{userInfo.nickName?userInfo.nickName:'未填写'}}
+        </view>
+      </view>
+  </view>
+</template>

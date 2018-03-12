@@ -1,0 +1,21 @@
+@import "../common/wxss/userinfo.wxss";
+
+.content view{
+  padding: 5px 0;
+  border-top:1px #cbcbcb solid;
+  text-indent: 1em; 
+}
+
+.content .last{
+  border-bottom:1px #cbcbcb solid;
+}
+.content view image{
+  width: 17px;
+  height: 17px;
+  vertical-align:middle;
+  margin-right: 7px;
+}
+
+.content view image:last-child{
+    float: right;
+}

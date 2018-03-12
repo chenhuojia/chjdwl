@@ -1,0 +1,7 @@
+<!--pages/feedback/feedback.wxml-->
+<import src="../common/tpls/userinfo.wxml"/>
+<view class="container my-container">
+  <template is="userinfo" data="{{userInfo: userInfo}}"/>
+  <view class='content'>
+  </view>
+</view>

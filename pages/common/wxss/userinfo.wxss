@@ -1,0 +1,39 @@
+.my-container{
+  padding: 0;
+}
+.header{
+  margin-bottom: 15rpx;
+  display: flex;
+  background: #e6e6e6; 
+  padding: 60px 0;
+}
+.avatar{
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin-right: 15px;
+}
+image{
+  border-radius: 100rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.header-foot{
+  margin-top: 15px;
+}
+
+ .sex{
+  margin-bottom: 5px;
+  display: flex;
+}
+ .sex image{
+  width: 17px;
+  height: 17px;
+  vertical-align:middle;
+  margin-right: 8px;
+ }
+ .content{
+   margin-top: 25px;
+}

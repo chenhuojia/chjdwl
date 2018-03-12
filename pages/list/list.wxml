@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!--pages/list/list.wxml-->
 <import src="../common/tpls/list.wxml"/>
 <view class="container">
   <template is="list" data="{{itemData: itemData}}"/>

@@ -1,0 +1,30 @@
+<template name="list">
+  <view class='item' wx:for="{{itemData}}" bindtap='goDetail'>
+    <image class='item-image' mode='widthFix' src='{{item.src}}'></image>
+    <view class='item-box'>
+      <view class='box-title'>
+        愿你永未衰老，不留我一人独活
+      </view>
+      <view class='box-info'>
+        <view>
+          <image mode='aspectFit' src='../../images/icon/discuss.png'></image>
+          chj
+        </view>
+        <view>
+          <image mode='aspectFit' src='../../images/icon/pic.png'></image>
+          7
+        </view>
+        <view>
+          <image mode='aspectFit' src='../../images/icon/eye.png'></image>
+          5566
+        </view>
+      </view>
+      <view class='box-desc'>
+        Morten Germund，是一个丹麦摄影师，他镜头下的祖父，在经历了长达60年的婚姻之后，失去了自己伴侣的。照片中，空空荡荡的大床和房间有着说...
+      </view>
+      <view class='item-time'>
+        <text>2017年07月21日</text>来自：日本の食器
+      </view>
+    </view>
+  </view>
+</template>
