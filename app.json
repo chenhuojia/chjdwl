@@ -6,7 +6,8 @@
     "pages/feedback/feedback",
     "pages/list/list",
     "pages/push/push",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/map/map"
   ],
   "tabBar": {
     "selectedColor": "#db639b",

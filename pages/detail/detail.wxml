@@ -25,9 +25,11 @@
         <image mode='widthFix' src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
             <image mode='widthFix' src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
       </view>
+
+      <view class='detail-footer'>
+        <view class='share'>分享：<image mode='aspectFit' src='../../images/icon/share.png' ></image></view>
+        <view class='like'>喜欢<view><image mode='aspectFit' src='../../images/icon/like.png' ></image>喜欢</view></view>
+      </view>
     </view>
   </view>
-
-
-
 </view>

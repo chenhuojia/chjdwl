@@ -10,11 +10,14 @@
    margin-left: 25px;
    margin-right: 25px;
    border: 1px rgb(241, 241, 242) solid;
+   margin-bottom: 35px;
 }
 .detail-center{
   width: 95%;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 10px;
+
 }
 .info-title{
    font-size:16px;
@@ -35,7 +38,7 @@
 }
 .info-top-right{
   height: 20px;
-  width: 40px;
+  width:55px;
   background: rgb(88, 89, 91);
   color: #fff;
   line-height: 20px;
@@ -59,4 +62,37 @@
 .detail-content image{
     width: 100%;
     height: 100%;
+}
+
+.detail-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed #ccc;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.detail-footer .share{
+  margin-top:10px;    
+  width: 60%;
+  text-align: left;
+}
+
+.detail-footer image{
+    height: 13px;
+    width: 17px;
+   vertical-align: middle;
+}
+.detail-footer .like{
+  margin-top:10px;   
+  display: flex;
+  justify-content: space-between;
+    line-height: 23px;
+}
+.detail-footer .like view{
+  border: 1px solid #d9b69f;
+  height: 23px;
+  padding: 0 10px;
+  margin-left: 20px;
 }

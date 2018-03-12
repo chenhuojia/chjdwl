@@ -19,3 +19,4 @@
 .content view image:last-child{
     float: right;
 }
+

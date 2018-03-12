@@ -1,1 +1,32 @@
+
 /* pages/push/push.wxss */
+.push-container{
+  background: #f9f9f9;
+}
+.title{
+  width: 100%;
+  border: 1px  solid #cbcbcb;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  position: relative;
+}
+.title textarea{
+  width: 100%;
+}
+.images image{
+  width: 80px;
+  height:80px;
+  
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.wordLimit{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  text-align: right;
+  color: #cbcbcb;
+}
+
