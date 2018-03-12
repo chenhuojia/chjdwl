@@ -1,11 +1,12 @@
 /**index.wxss**/
 .item{
-  width: 88%;
   padding: 0 5%;
   margin-bottom: 20px;
-  border: 1px rgb(241, 241, 242) solid;
+  border-top: 1px rgb(241, 241, 242) solid;
+  border-bottom: 1px rgb(241, 241, 242) solid;
 }
 .item-image{
+  margin-top: 10px;
   width: 100%;
 }
 .item-box{

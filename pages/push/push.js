@@ -95,12 +95,17 @@ Page({
   inputLen:function(e){
     var value = e.detail.value, len = parseInt(value.length);
     if (len > this.data.noteMaxLen) return;
-
     this.setData({
       currentNoteLen: len //当前字数  
       //limitNoteLen: this.data.noteMaxLen - len //剩余字数  
     });  
+  },
+  onchooseaddress:function(e){
+    wx.chooseLocation({
+      success: function (res) {
+        console.log(res)
+      }
+    })
   }
-
 
 })

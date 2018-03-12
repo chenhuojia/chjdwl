@@ -4,6 +4,7 @@
   padding: 5px 0;
   border-top:1px #cbcbcb solid;
   text-indent: 1em; 
+  background: #FFFFFF;
 }
 
 .content .last{

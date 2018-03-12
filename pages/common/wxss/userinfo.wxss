@@ -1,11 +1,12 @@
 .my-container{
   padding: 0;
+  background: #f9f9f9; 
 }
 .header{
   margin-bottom: 15rpx;
   display: flex;
-  background: #e6e6e6; 
-  padding: 60px 0;
+  padding:60px 0px 60px 15px;
+  background: linear-gradient(to right, #f3e3ba , #fdda84);
 }
 .avatar{
   width: 64px;
@@ -20,9 +21,7 @@ image{
   width: 100%;
   height: 100%;
 }
-.header-foot{
-  margin-top: 15px;
-}
+
 
  .sex{
   margin-bottom: 5px;
@@ -34,6 +33,17 @@ image{
   vertical-align:middle;
   margin-right: 8px;
  }
+  .user-info view{
+    display: flex;
+    padding-bottom: 5px;
+  }
+ .user-info image{
+    width: 17px;
+    height: 17px;
+    vertical-align:middle;
+    margin-right: 8px;
+    background: white;
+ }
  .content{
-   margin-top: 25px;
+   margin-top: 45px;
 }

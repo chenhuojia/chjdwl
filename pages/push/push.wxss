@@ -2,24 +2,60 @@
 /* pages/push/push.wxss */
 .push-container{
   background: #f9f9f9;
+  font-size: 14px;
 }
+
 .title{
   width: 100%;
-  border: 1px  solid #cbcbcb;
   margin-bottom: 25px;
   margin-top: 20px;
-  position: relative;
+  display: flex;
+  background: white;
 }
-.title textarea{
+.title view:first-child{
+  line-height: 26px;
+  text-align: center;
+  width: 15%;
+}
+.title view:last-child{
+    width: 100%;
+    line-height: 26px;
+    border: none;
+}
+.address{
+  display: flex;
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+  padding:10px 0;
+  background: white;
+  margin-bottom: 10px;
+}
+.address image{
+  width: 17px;
+  height:17px;
+  vertical-align: middle;
+  margin-right: 10px;
+ margin-left: 10px;
+}
+
+.desc view:first-child{
+  margin-bottom: 15px;
+  padding-left: 10px;      
+}
+
+.desc view:last-child{
+  width: 100%;
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+  position: relative;
+  background: white;
+ 
+}
+textarea{ 
+  height:100px;
   width: 100%;
 }
-.images image{
-  width: 80px;
-  height:80px;
-  
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
+
 .wordLimit{
   display: inline-block;
   width: 100%;
@@ -29,4 +65,38 @@
   text-align: right;
   color: #cbcbcb;
 }
+.images{
+   margin-top: 20px;
+   background: white;
+   margin-bottom: 15px;
+}
+.images view{
+    margin-left: 10px; 
+}
+.images image{
+  width: 80px;
+  height:80px;
+  margin-left: 10px; 
+}
+.button{
+  border-radius: 25rpx;
+  text-align: center;
+}
 
+.content view:first-child{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;      
+}
+.content view:last-child textarea{
+  height:150px;
+}
+
+.content view:last-child{
+  width: 100%;
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+  position: relative;
+  background: white;
+ 
+}

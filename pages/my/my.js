@@ -6,8 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-
-
+    hiddenmodalput:true,
+    array: ['美国', '中国', '巴西', '日本'],
+    userInfo:{},
   },
 
   /**
@@ -16,7 +17,7 @@ Page({
   onLoad: function (options) {
 
     this.setData({
-      userInfo: getApp().globalData.userInfo,
+      userInfo: getApp().globalData.userInfo ? getApp().globalData.userInfo:{},
     })
 
 
@@ -64,32 +65,28 @@ Page({
   
   },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  signshow:function(e){
+    this.setData({
+      hiddenmodalput: false,
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
+  cancelSign:function(e){
+    this.setData({
+      hiddenmodalput: true,
+    })
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
+  confirmSign: function (e) {
+    console.log(this.data)
+    this.setData({
+      hiddenmodalput: true,
+    })
   },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-
+  updateSign:function(e){
+    var sign = e.detail.value;
+    var userInfo=this.data.userInfo;
+    userInfo.sign=sign;
+    this.setData({
+      userInfo: userInfo,
+    })
   }
 })

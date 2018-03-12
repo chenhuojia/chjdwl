@@ -31,8 +31,13 @@
 				{
 					"id": 0,
 					"name": "fffte",
-					"pathName": "pages/feedback/feedback",
 					"pathName": "pages/push/push",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "fffte",
+					"pathName": "pages/my/my",
 					"query": ""
 				}
 			]

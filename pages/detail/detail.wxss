@@ -59,6 +59,14 @@
 .info-top-name text{
   color: #BCBEC0;
 }
+
+.content-detail{
+  text-align: left;
+  text-indent: 1em;
+  background: #FFFFFF;
+  padding-bottom: 10px;
+}
+
 .detail-content image{
     width: 100%;
     height: 100%;

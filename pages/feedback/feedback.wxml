@@ -3,5 +3,19 @@
 <view class="container my-container">
   <template is="userinfo" data="{{userInfo: userInfo}}"/>
   <view class='content'>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view>
+      <view>联系方式</view>
+      <input type='text' placeholder='反馈后希望答复请填写' name="contact"></input>
+    </view>
+    <view>
+      <view>内容</view>
+      <textarea maxlength="255" name="content"></textarea>
+    </view>
+    <view>
+      <button type="primary" form-type="submit">提交</button>
+    </view>
+  </form>
+ 
   </view>
 </view>

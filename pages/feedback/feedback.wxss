@@ -1,2 +1,20 @@
 @import "../common/wxss/userinfo.wxss";
-
+.content{
+  background: #f9f9f9;
+}
+.content view {
+  width: 100%;
+}
+.content view view{
+  padding:10px 5px;
+}
+input{
+  background: #FFFFFF;
+  text-indent: 1em;
+}
+textarea{
+  background: #FFFFFF;
+  width: 99%;
+  height: 50px;
+  margin-bottom: 30px;
+}

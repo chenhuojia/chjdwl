@@ -19,6 +19,15 @@
         </view>
         <view class='info-top-right' >关注TA</view>
       </view>
+      <view class='content-detail'>
+        <text>
+          dshhdjshga
+          dsjsakgsa
+          dfjsdkjfsd
+          fdjdskhgsd
+          
+        </text>
+      </view>
       <view class='detail-content' bindtap='prevImage'>
         <image mode='widthFix' src='http://xqsite.xiangqu.com/FjZDZnkg-5o-iEwFlAjLRMOtCY_U?imageView2/2/w/520/q/90/format/jpg/1000x667/'></image>
         <image mode='widthFix' src='https://www.imooc.com/static/img/landp_banner.jpg'></image>
